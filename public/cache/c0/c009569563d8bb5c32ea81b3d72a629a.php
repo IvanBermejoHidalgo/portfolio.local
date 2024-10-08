@@ -269,7 +269,7 @@ class __TwigTemplate_ec1d66153439d6ae7942877a5203699f extends Template
       </div>    
     </div>
 
-    <div class=\"text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden\">
+    <div class=\"text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden\">
       <div class=\"my-3 py-3\">
         <h2 class=\"display-7\"><b>Técnico de sistemas informáticos</b></h2>
         <h3 class=\"lead\">Octubre 2023 - Marzo 2024</h3>
@@ -279,28 +279,30 @@ class __TwigTemplate_ec1d66153439d6ae7942877a5203699f extends Template
       </div>
     </div>
     
+    
   </div>
 
   <div class=\"d-md-flex flex-md-equal w-100 my-md-3 ps-md-3\">
-    <div class=\"bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden\">
+    <div class=\"text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden\">
       <div class=\"my-3 p-3\">
-        <h2 class=\"display-5\">Another headline</h2>
-        <p class=\"lead\">And an even wittier subheading.</p>
+        <h2 class=\"display-5\"><b>Técnico montaje</b></h2>
+        <h3 class=\"lead\">Septiembre 2021 - Febrero 2022</h3>
       </div>
-      <div class=\"bg-dark shadow-sm mx-auto\" style=\"width: 80%; height: 300px; border-radius: 21px 21px 0 0;\"></div>
-    </div>
+      <div class=\"bg-dark shadow-sm mx-auto\" style=\"width: 80%; height: 250px; border-radius: 21px 21px 0 0; overflow: hidden;\">
+        <img src=\"../images/life.png\" alt=\"Experiencia Les Neus\" style=\"width: 80%; height: 80%; object-fit: contain;\">      
+      </div>    </div>
 
-    <div class=\"text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden\">
+    <!--div class=\"text-bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden\">
       <div class=\"my-3 py-3\">
         <h2 class=\"display-5\">Another headline</h2>
         <p class=\"lead\">And an even wittier subheading.</p>
       </div>
       <div class=\"bg-body-tertiary shadow-sm mx-auto\" style=\"width: 80%; height: 300px; border-radius: 21px 21px 0 0;\"></div>
-    </div>
+    </div-->
   </div>
 </div>
 
-  <div class=\"d-md-flex flex-md-equal w-100 my-md-3 ps-md-3\">
+  <!--div class=\"d-md-flex flex-md-equal w-100 my-md-3 ps-md-3\">
     <div class=\"bg-body-tertiary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden\">
       <div class=\"my-3 p-3\">
         <h2 class=\"display-5\">Another headline</h2>
@@ -333,7 +335,7 @@ class __TwigTemplate_ec1d66153439d6ae7942877a5203699f extends Template
       </div>
       <div class=\"bg-body shadow-sm mx-auto\" style=\"width: 80%; height: 300px; border-radius: 21px 21px 0 0;\"></div>
     </div>
-  </div>
+  </div-->
 </main>
 
 <footer class=\"container py-5\">
