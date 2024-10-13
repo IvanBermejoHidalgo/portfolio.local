@@ -17,8 +17,9 @@ Este es mi portafolio personal donde muestro mis proyectos, experiencias laboral
 - PHP
 - PostgreSQL
 
-## Instalación
+## Contacto
 
-1. Clona este repositorio en tu máquina local:
-   ```bash
-   git clone https://github.com/tuusuario/tuportafolio.git
+- **Nombre:** Iván Bermejo Hidalgo
+- **Email:** ibermejo@elpuig.xeill.net
+- **GitHub:** [IvanBermejoHidalgo](https://github.com/IvanBermejoHidalgo)
+
