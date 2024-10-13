@@ -1,21 +1,19 @@
 <?php
 
 require_once "../vendor/autoload.php";
-require_once "../src/controller/ProjectController.php";
+require_once "../src/controller/PortfolioController.php";
 
-// prepare twig
+// Preparar Twig
 $loader = new \Twig\Loader\FilesystemLoader('templates');
 $twig = new \Twig\Environment($loader, [
-	'cache' => 'cache',
-	'auto_reload' => true,
+    'cache' => 'cache',
+    'auto_reload' => true,
 ]);
-  
-// $pc = new ProjectController();
-// print_r("<pre>");
-// print_r($pc->getProjects());
-// print_r("</pre>");
 
-// Este array lo tiene que devolver el controlador
-echo $twig->render('index.html', [ ]);
+// Instanciar el controlador de portafolio con Twig
+$portfolioController = new PortfolioController($twig);
+
+// Renderizar el portafolio usando el controlador
+$portfolioController->renderPortfolio();
 
 ?>

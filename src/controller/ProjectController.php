@@ -10,25 +10,51 @@ class ProjectController {
         $this->connection = DatabaseController::connect();
     }
 
-    public function getProjects() {
+    public function getExperiencias() {
+        try {
+            $query = "SELECT * FROM Experiencia"; // Asegúrate de que el nombre de la tabla sea correcto
+            $statement = $this->connection->prepare($query);
+            $statement->execute();
+            return $statement->fetchAll(PDO::FETCH_ASSOC);
+        } catch (PDOException $error) {
+            echo $error->getMessage();
+        }
+    }
 
-        try  {
-       
-            $sql = "SELECT * 
-                    FROM Project
-                    WHERE 1";
-        
+    public function getEstudios() {
+        try {
+            $sql = "SELECT * FROM Estudios";
             $statement = $this->connection->prepare($sql);
             $statement->setFetchMode(PDO::FETCH_OBJ);
             $statement->execute();
-
-            $result = $statement->fetchAll();
-
-            return $result;
-
-          } catch(PDOException $error) {
-              echo $sql . "<br>" . $error->getMessage();
-          }
+            return $statement->fetchAll();
+        } catch (PDOException $error) {
+            echo $error->getMessage();
+        }
     }
+
+    public function getTecnologias() {
+        try {
+            $sql = "SELECT * FROM Tecnologias";
+            $statement = $this->connection->prepare($sql);
+            $statement->setFetchMode(PDO::FETCH_OBJ);
+            $statement->execute();
+            return $statement->fetchAll();
+        } catch (PDOException $error) {
+            echo $error->getMessage();
+        }
+    }
+
+    public function getProyecto() {
+    try {
+        $sql = "SELECT * FROM Proyectos";
+        $statement = $this->connection->prepare($sql);
+        $statement->setFetchMode(PDO::FETCH_OBJ);
+        $statement->execute();
+        return $statement->fetch();
+    } catch (PDOException $error) {
+        echo $error->getMessage();
+    }
+}
 
 }

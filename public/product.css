@@ -72,3 +72,43 @@
     flex: 1;
   }
 }
+
+.experience-card {
+  border-radius: 15px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease; /* Transiciones suaves */
+}
+
+.experience-card:hover {
+  transform: scale(1.08); /* Aumenta el tamaño solo un 3% */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Sombra más intensa */
+}
+
+.education-card {
+  border-radius: 15px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+
+.education-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.tecno-card {
+  border-radius: 15px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+
+.tecno-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.logo-card {
+  border-radius: 15px;
+  transition: transform 0.6s ease, box-shadow 0.6s ease;
+}
+
+.logo-card:hover {
+  transform: scale(1.08);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
