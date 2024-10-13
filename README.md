@@ -1,6 +1,6 @@
 # Mi Portafolio Web
 
-Este es mi portafolio personal donde muestro mis proyectos, experiencias laborales, estudios y tecnologías que conozco. Está diseñado utilizando HTML, Twig, Bootstrap y una base de datos PostgreSQL.
+Este es mi portafolio personal donde muestro mis proyectos, experiencias laborales, estudios y tecnologías que conozco. Está diseñado utilizando HTML, Twig, Bootstrap y una base de datos MySQL.
 
 ## Características
 
