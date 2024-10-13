@@ -15,7 +15,7 @@ Este es mi portafolio personal donde muestro mis proyectos, experiencias laboral
 - Twig
 - Bootstrap
 - PHP
-- PostgreSQL
+- MySQL
 
 ## Contacto
 
